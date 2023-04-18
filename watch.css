@@ -1,0 +1,41 @@
+#container
+{
+    margin: auto;
+    height: 40vw;
+    width:  40vw;
+    background-image: url("pngwing.com.png");
+    background-repeat: no-repeat;
+    background-size:100%;
+    position: relative;
+}
+#hour, #min, #sec{
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+    
+}
+#hour{
+    width: 8px;
+    height: 29%;
+    top: 21%;
+    left: 49.3%;
+   
+}
+#min
+{
+    width: 3px;
+    height: 32%;
+    top: 17%;
+    left: 49.7%;
+   
+}
+#sec
+{
+    width: 2px;
+    height: 34%;
+    top: 15%;
+    left: 49.9%;
+    
+}
+
